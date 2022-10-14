@@ -1,0 +1,44 @@
+.contacts {
+    margin-top: 7em;
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.icon {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.icon__instagram {
+    color: #fff; 
+    background: linear-gradient(to right, rgb(231, 54, 178)000, rgb(195, 24, 218)000); 
+    border-radius: 5px;
+}
+
+.icon__facebook {
+    color: #0a3bc2;
+}
+
+.icon__twitter {
+    color: #3088ec;
+}
+
+.icon__whatsapp {
+    color: #105801;
+}
+
+
+.teste {
+    background: url('/img/icons8-whatsapp.svg');
+}
+
+.icon__chat {
+    color: #fff;
+    background-color: #0a3bc2;
+    border-radius: 100%;
+    padding: .8em;
+
+}

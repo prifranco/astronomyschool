@@ -1,0 +1,73 @@
+.banner {
+    margin: 20em 0px 0px 2em;
+}
+
+.banner__subtitle, .banner__subtitle-alternative {
+    font-size: 1.5em;
+    color: var(--cor-texto-banner);
+    font-weight: 400;
+    margin-bottom: .2em;
+}
+
+.banner__title {
+    color: #f7b604;
+    font-size: 7em;
+    font-weight: 700;
+}
+
+.banner__subtitle-alternative {
+    font-size: 4em;
+    font-weight: 500;
+    color: #000732;
+    margin-bottom: 1em;
+}
+
+.banner__description {
+    color: #636363;
+    font-size: 1.025em;
+    margin-bottom: 2em;
+    line-height: 2em;
+    width: 40em;
+}
+
+.banner__buttons {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+}
+
+.banner__buttons button {
+    box-shadow: 1px 3px 9px 1px #a1a1a1;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.025em;
+    width: 17em;
+    height: 3em;
+}
+
+.button__study {
+    background: var(--cor-gradiente);
+    color: #ffffff;
+    transition: all 250ms ease-in-out;
+    
+}
+
+.button__study:hover {
+    background: var(--cor-texto); 
+    transition: all 250ms ease-in-out;
+}
+
+.button__readmore {
+    background-color: #f1f1f1;   
+    color: var(--cor-texto);
+    transition: all 250ms ease-in-out;
+}
+
+.button__readmore:hover {
+    border: 1px solid  var(--nav-alternative-color);
+    background: transparent;
+    color: var(--nav-alternative-color);
+    transition: all 250ms ease-in-out;
+}

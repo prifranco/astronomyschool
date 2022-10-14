@@ -1,0 +1,14 @@
+.about {
+    height: 100vh;
+    background-color: #efefef;
+    margin-top: 4em;
+}
+
+
+.about-title {
+    color: var(--cor-texto);
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    
+}
